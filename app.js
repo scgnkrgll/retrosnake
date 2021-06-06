@@ -11,7 +11,7 @@ const blockDimensions = [
 
 context.scale(blockSize, blockSize)
 
-const apple = new Food()
+const apple = new Food(blockDimensions)
 const snake = new Snake(blockDimensions)
 
 function drawGame(time) {
